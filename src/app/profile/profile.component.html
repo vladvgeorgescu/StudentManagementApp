@@ -1,0 +1,73 @@
+<div class="wrapper wrapper-content">
+    <div class="row animated fadeInRight">
+        <div class="col-md-4">
+            <div class="ibox float-e-margins">
+                <div class="ibox-title">
+                    <h5>Profile Detail</h5>
+                </div>
+                <div>
+                    <div class="ibox-content profile-content">
+                        <h4><strong>{{user.name}} {{user.surname}}</strong></h4>
+                        <h5>
+                            About me
+                        </h5>
+                        <p>
+                            Class - Id: {{user.id}}
+                        </p>
+                        <p>
+                            Email: {{user.email}}
+                        </p>
+
+
+                    </div>
+            </div>
+        </div>
+    </div>
+
+<div class="col-md-8">
+    <div class="ibox float-e-margins">
+        <div class="ibox-title">
+            <h5>Current Attendance</h5>
+            <h4 class="datetime"><strong>{{today | date:'EEE'}}, {{today | date:'yyyy-MM-dd HH:mm a z':'+0200'}}</strong></h4>
+        </div>
+        
+        <div class="ibox-title inner-ibox-title">
+                <h5>Courses</h5>
+        </div>
+        <div class="ibox-content">
+
+            <div>
+                <div class="feed-activity-list">
+
+                    <div class="feed-element" *ngFor='let course of courses'>
+                        <div class="media-body ">
+                            <strong>{{course.name}}</strong> <br>
+                        </div>
+                    </div>  
+            </div>
+
+        </div>
+    </div>
+    <div class="ibox-title inner-ibox-title">
+            <h5>Laboratories</h5>
+    </div>
+    <div class="ibox-content">
+
+            <div>
+                <div class="feed-activity-list">
+
+                    <div class="feed-element" *ngFor='let lab of labs'>
+                        <div class="media-body ">
+                            <strong>{{lab.name}}</strong><br>
+
+                        </div>
+                    </div>  
+            </div>
+
+        </div>
+    </div>
+
+</div>
+</div>
+</div>
+</div>

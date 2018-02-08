@@ -1,0 +1,28 @@
+.logo-gif{
+    width: 100%;
+}
+#second-wrapper{
+    margin-top: 6.9%;
+    margin-left: -3.8%;
+}
+.ibox-content{
+    height:  366px;
+}
+#login-wrapper{
+    margin-top: 13%;
+}
+#registration-wrapper{
+    margin-top: 14%;
+}
+#create-account-btn{
+    width: 91%;
+    margin-left: 4.5%;
+}
+hr{
+    width: 96.3%;
+    float: left;
+}
+#login-message{
+    border:none;
+    height:20px;
+}

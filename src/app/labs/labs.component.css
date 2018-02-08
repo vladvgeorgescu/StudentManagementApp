@@ -1,0 +1,10 @@
+.wrapper-content {
+    margin-top: -83%;
+    padding: 20px 10px 40px;
+}
+.datetime{
+    font-family: "open sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 13px;
+    color: #676a6c;
+    font-weight: 600;
+}

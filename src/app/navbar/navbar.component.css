@@ -1,0 +1,53 @@
+.logo-gif{
+    width: 26.4%;
+    height:   11vh;
+}
+#page-wrapper{
+    margin-left:0%;
+    background-color: rgba(224, 212, 212, 0.87);
+}
+
+@media(max-width:418px){
+    .logo-gif{
+    width: 109%;
+    height: 21.6vh;
+    }
+}
+
+@media (min-width: 768px){
+.navbar-header {
+    float: left;
+    height: 4vh;}
+}
+.img_container{
+    width: 95%;
+}
+.logo_container{
+    width: 100%;
+}
+.nav{
+    margin-left: -6%;;
+}
+.navbar-right{
+    margin-left:0%;
+}
+
+.navbar-brand{
+    color: #63615c;
+    font-weight: 600;
+    font-size: 19px;
+}
+.nav > li > a {
+    color: #63615c;
+    font-weight: 600;
+    font-size: 14px;
+}
+.sign-out{
+    padding-top:13%;
+}
+.username-text{
+    font-weight:550;
+    font-family: "open sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    color: #63615c;
+}
